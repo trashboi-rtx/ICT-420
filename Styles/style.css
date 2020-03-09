@@ -1,10 +1,11 @@
 header {
   background-color: #b00000;
   font-family: arial, sans-serif;
+  text-align: center;
 }
 
 h1 {
-
+  font-size: 3rem;
 }
 
 h2 {
@@ -15,19 +16,23 @@ p {
   font-family: arial, sans-serif;
 }
 
-ul {
-
-}
-
-li {
-
+ul > li {
+  display: inline;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  font-size: 24px;
+  list-style-position: outside;
+  list-style-type: image;
+  list-style-image: url('burns25.jpg');
 }
 
 footer {
   background-color: #b00000;
   font-family: arial, sans-serif;
+  text-align: center;
 }
 
 body {
   background-color: grey;
+  text-align: center;
 }
