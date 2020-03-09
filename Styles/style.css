@@ -22,8 +22,6 @@ ul > li {
   padding-bottom: 24px;
   font-size: 24px;
   list-style-position: outside;
-  list-style-type: image;
-  list-style-image: url('burns25.jpg');
 }
 
 footer {
