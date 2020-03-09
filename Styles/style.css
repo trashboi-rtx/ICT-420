@@ -16,12 +16,21 @@ p {
   font-family: arial, sans-serif;
 }
 
-ul > li {
+ul {
+  list-style-type: none;
+  padding-right: 4em;
+  margin: 0;
+}
+
+li {
   display: inline;
-  padding-right: 24px;
-  padding-bottom: 24px;
+  margin-left: 1em;
   font-size: 24px;
   list-style-position: outside;
+  background-image: url('burns25.jpg');
+  background-repeat: no-repeat;
+  background-position: 1px;
+  padding-left: 24px;
 }
 
 footer {
