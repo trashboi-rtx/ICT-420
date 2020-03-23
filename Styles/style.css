@@ -1,45 +1,77 @@
-header {
+header
+{
   background-color: #b00000;
   font-family: arial, sans-serif;
   text-align: center;
+  border: 1px solid black;
 }
 
-h1 {
+h1
+{
   font-size: 3rem;
 }
 
-h2 {
+h2
+{
+  font-family: arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p
+{
   font-family: arial, sans-serif;
 }
 
-p {
-  font-family: arial, sans-serif;
+.pbox1
+{
+  border: 1px solid black;
+  margin-bottom: 1em;
 }
 
-ul {
+.pbox2
+{
+  border: 1px solid black;
+}
+
+.vbox1
+{
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+.vbox2
+{
+  border: 1px solid black;
+}
+
+ul
+{
   list-style-type: none;
   padding-right: 4em;
   margin: 0;
 }
 
-li {
+li
+{
   display: inline;
   margin-left: 1em;
   font-size: 24px;
   list-style-position: outside;
-  background-image: url('burns25.jpg');
   background-repeat: no-repeat;
   background-position: 1px;
-  padding-left: 24px;
 }
 
-footer {
+footer
+{
   background-color: #b00000;
   font-family: arial, sans-serif;
   text-align: center;
+  border: 1px solid black;
 }
 
-body {
+body
+{
   background-color: grey;
   text-align: center;
 }
